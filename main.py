@@ -1,5 +1,9 @@
+import streamlit as st
+import pandas as pd
+
 def main():
-    print("Hello from asimov-streamlit!")
+    df = pd.read_csv("01 Spotify.csv")
+    df
 
 
 if __name__ == "__main__":
